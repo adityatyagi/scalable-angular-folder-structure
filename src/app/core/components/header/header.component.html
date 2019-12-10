@@ -1,35 +1,8 @@
-<!--Header-->
-<header class="main-header" id="header">
-  <nav class="main-navbar animated fadeIn">
-    <div class="left-menu">
-      <h3><a href="javascript:Void(0)">Josh Technology Group</a></h3>
-    </div>
-    <button type="button" id="menu-trigger" class="menu-button"><i class="icon-menu-button" #triggerMenu></i></button>
-    <div class="right-menu">
-      <ul>
-        <li><a href="javascript:Void(0)" title="Play">Play</a></li>
-        <li><a href="javascript:Void(0)" title="Explore">Explore</a></li>
-        <li><a href="javascript:Void(0)" title="Connect">Connect</a></li>
-        <li><a href="javascript:Void(0)" title="Apply">Apply</a></li>
-      </ul>
-    </div>
-  </nav>
+<header>
+  <h1>This is the header</h1>
+  <ul>
+    <li><a [routerLink]="['/']">Landing page</a></li>
+    <li><a [routerLink]="['/about-us']">About Us page</a></li>
+    <li><a [routerLink]="['/contact-us']">Contact Us page</a></li>
+  </ul>
 </header>
-
-
-<!--Slide Navbar-->
-<div class="header-slide" #sidebarMenu>
-  <div class="inner">
-    <div class="close-wrapper">
-      <a href="javascript:void(0)" (click)="closeMenu()" class="close-btn" id="close">
-        <i class="icon-close-button"></i>
-      </a>
-    </div>
-    <ul class="menu">
-      <li><a href="#" title="Play" appCloseMenu>Play</a></li>
-      <li><a href="#" title="Explore" appCloseMenu>Explore</a></li>
-      <li><a href="#" title="Connect" appCloseMenu>Connect</a></li>
-      <li><a href="#" title="Apply" appCloseMenu>Apply</a></li>
-    </ul>
-  </div>
-</div>

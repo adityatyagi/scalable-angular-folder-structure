@@ -1,0 +1,13 @@
+header {
+  border: 1px solid #000;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      justify-content: flex-start;
+      margin-right: 30px;
+    }
+  }
+}

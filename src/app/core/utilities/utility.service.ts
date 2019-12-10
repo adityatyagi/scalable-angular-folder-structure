@@ -1,29 +1,23 @@
-import { Injectable } from '@angular/core';
-import { FormGroup } from '@angular/forms';
-import { NgxUiLoaderService } from 'ngx-ui-loader';
-import { ToastrService } from 'ngx-toastr';
-import { Router } from '@angular/router';
+import { Injectable } from "@angular/core";
+import { FormGroup } from "@angular/forms";
+import { Router } from "@angular/router";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class UtilityService {
-  constructor(
-    private loader: NgxUiLoaderService,
-    private toast: ToastrService,
-    private router: Router
-  ) {}
+  constructor(private router: Router) {}
 
   scrollToTop() {
     // window.scroll(0, 0);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   convertDateToNumberFormat(d) {
     const formattedTime =
-      (d.getHours() < 10 ? '0' + d.getHours() : d.getHours()) +
-      '' +
-      (d.getMinutes() < 10 ? '0' + d.getMinutes() : d.getMinutes());
+      (d.getHours() < 10 ? "0" + d.getHours() : d.getHours()) +
+      "" +
+      (d.getMinutes() < 10 ? "0" + d.getMinutes() : d.getMinutes());
     return +formattedTime;
   }
 
@@ -56,13 +50,13 @@ export class UtilityService {
   arrayOfObjectToArrayOfStrings(obj: []) {
     const newArray = [];
     obj.forEach(element => {
-      newArray.push(element['value']);
+      newArray.push(element["value"]);
     });
     return newArray;
   }
 
   checkAndParseToNumberIfString(str) {
-    if (typeof str === 'string') {
+    if (typeof str === "string") {
       return this.stringToNumber(str);
     } else {
       return str;
@@ -102,23 +96,10 @@ export class UtilityService {
     return true;
   }
 
-  resetPage() {
-    this.loader.stop();
-    this.scrollToTop();
-  }
-
-  loaderStart() {
-    this.loader.start();
-  }
-
-  loaderStop() {
-    this.loader.stop();
-  }
-
   checkLengthOfEveryArrayInObject(obj) {
     if (obj) {
       for (const val of Object.values(obj)) {
-        if (val['length'] === 0) {
+        if (val["length"] === 0) {
           return false;
         } else {
           return true;
@@ -128,42 +109,13 @@ export class UtilityService {
   }
 
   openLinkInNewTab(link: string) {
-    let url = '';
+    let url = "";
     if (!/^http[s]?:\/\//.test(link)) {
-      url += 'http://';
+      url += "http://";
     }
 
     url += link;
-    window.open(url, '_blank');
-  }
-
-  toastSuccess(title, details) {
-    this.toast.success(details, title, {
-      closeButton: true,
-      positionClass: 'toast-top-center',
-      timeOut: 4000
-    });
-  }
-
-  toastInfo(title, details) {
-    this.toast.info(details, title, {
-      closeButton: true,
-      positionClass: 'toast-top-center',
-      timeOut: 4000
-    });
-  }
-
-  toastWarning(title, details) {
-    this.toast.warning(details, title, {
-      closeButton: true,
-      positionClass: 'toast-top-center',
-      timeOut: 4000
-    });
-  }
-
-  routeToUrl(url) {
-    this.router.navigateByUrl(url);
-    this.resetPage();
+    window.open(url, "_blank");
   }
 
   isObjectEmpty(obj) {

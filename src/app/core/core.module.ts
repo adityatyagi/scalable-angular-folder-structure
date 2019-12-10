@@ -9,15 +9,18 @@ import { BaseService } from "./services/base.service";
 import { EnsureModuleLoadedOnceGuard } from "./guards/ensure-module-loaded-once.guard";
 import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { RouterModule } from "@angular/router";
+import { ScrollToTopComponent } from "./components/scroll-to-top/scroll-to-top.component";
 
 @NgModule({
   declarations: [
     ProjectLayoutComponent,
     NotFound404Component,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ScrollToTopComponent
   ],
-  imports: [CommonModule, HttpClientModule],
+  imports: [CommonModule, RouterModule, HttpClientModule],
   exports: [HttpClientModule],
   providers: [BaseService, UtilityService]
 })
