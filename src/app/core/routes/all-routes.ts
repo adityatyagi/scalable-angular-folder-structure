@@ -1,9 +1,8 @@
-import { Routes } from '@angular/router';
+import { Routes } from "@angular/router";
 
 export const ALL_ROUTES: Routes = [
   {
-    path: '',
-    loadChildren:
-      './profile-comparison/profile-comparison.module#ProfileComparisonModule'
+    path: "",
+    loadChildren: "./home/home.module#HomeModule"
   }
 ];
