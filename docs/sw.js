@@ -2,8 +2,10 @@ var APP_PREFIX = 'scalable-angular-app' // Identifier for this app (this needs t
 var VERSION = 'version_01' // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [ // Add URL you want to cache in this list.
-  'scalable-angular-folder-structure', // If you have separate JS/CSS files,
-  'scalable-angular-folder-structure/index.html' // add path to those files here
+  "/favicon.ico",
+  "/index.html",
+  "/*.css",
+  "/*.js"
 ]
 
 // Respond with cached resources
