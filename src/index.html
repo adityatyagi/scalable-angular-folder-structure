@@ -1,17 +1,29 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>ScalableAngularApp</title>
   <base href="/">
-
+  <link rel="canonical" href="https://adityatyagi.github.io/scalable-angular-folder-structure/" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#1976d2">
 </head>
+
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <script>
+    // register ServiceWorker, remember to use absolute path!
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/{scalable-angular-folder-structure}/sw.js', {
+        scope: '/{scalable-angular-folder-structure}/'
+      })
+    }
+
+  </script>
 </body>
+
 </html>
