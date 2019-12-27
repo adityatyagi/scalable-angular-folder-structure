@@ -6,10 +6,10 @@
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "/favicon.ico",
-          "/index.html",
-          "/*.css",
-          "/*.js"
+          "./favicon.ico",
+          "./index.html",
+          "./*.css",
+          "./*.js"
         ]
       }
     },
@@ -19,7 +19,7 @@
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/assets/**"
+          "./assets/**"
         ],
         "urls": [
           "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
