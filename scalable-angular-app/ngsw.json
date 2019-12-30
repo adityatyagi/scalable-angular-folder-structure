@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "index": "https://adityatyagi.github.io/scalable-angular-folder-structure/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/4.f9760fd6686b59dc4306.js",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/favicon.ico",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/index.html",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/main.97d2965d69187ddcd024.js",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/polyfills.e254f6b9bf511460eb6d.js",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/runtime.69369eab251667323208.js",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/styles.efd85281d64d456a62d6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.eot",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.svg",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.ttf",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.woff",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-128x128.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-144x144.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-152x152.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-192x192.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-384x384.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-512x512.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-72x72.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-96x96.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/images/chevron-arrow-up.png",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/scss/modules/_icon.scss"
+      ],
+      "patterns": [
+        "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/font-awesome\\/4\\.7\\.0\\/css\\/font-awesome\\.min\\.css"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/4.f9760fd6686b59dc4306.js": "9225f997d71f435d1215a8cdd365e2f49e43b04e",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.eot": "3923232e8a1ce420e92438221af1952c69150b05",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.svg": "128f2fac15448eae2c5c4c92ba1445e43e091c68",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.ttf": "3229b671d2be0a3d5defb3eee74055784091478d",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.woff": "4ead0d09fa2174ab84cf76d52df69f10f39a0a0f",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/images/chevron-arrow-up.png": "5d1c6d8f2adddd5a58461dbf9b029c54f65eb65c",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/scss/modules/_icon.scss": "51cb810463e91b307fb609696de143584bafa21f",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/index.html": "caad59963d52391a0a9daac8eef999aa7ac513b4",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/main.97d2965d69187ddcd024.js": "405beb0cd7a808e8814b1a41b3676e8c753ce7ec",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/polyfills.e254f6b9bf511460eb6d.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/runtime.69369eab251667323208.js": "5e225d436bd5164cd4284d8777915c9a3ee093e5",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/styles.efd85281d64d456a62d6.css": "9f882c026297c621d9310d4f21aa81d1c2056ffb"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
