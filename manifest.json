@@ -4,7 +4,7 @@
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "/",
+  "scope": "https://adityatyagi.github.io/scalable-angular-folder-structure/",
   "start_url": "https://adityatyagi.github.io/scalable-angular-folder-structure/",
   "icons": [
     {
