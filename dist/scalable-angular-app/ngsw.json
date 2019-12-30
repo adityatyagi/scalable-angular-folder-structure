@@ -7,12 +7,12 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://adityatyagi.github.io/scalable-angular-folder-structure/4.215eb396c5ece87b9133.js",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/4.4ca85d0b3007a4cab725.js",
         "https://adityatyagi.github.io/scalable-angular-folder-structure/favicon.ico",
         "https://adityatyagi.github.io/scalable-angular-folder-structure/index.html",
         "https://adityatyagi.github.io/scalable-angular-folder-structure/main.8fb0aacddf6188c71a72.js",
         "https://adityatyagi.github.io/scalable-angular-folder-structure/polyfills.e254f6b9bf511460eb6d.js",
-        "https://adityatyagi.github.io/scalable-angular-folder-structure/runtime.3fdbe794857a1a1acafa.js",
+        "https://adityatyagi.github.io/scalable-angular-folder-structure/runtime.215ce144c88524f9a277.js",
         "https://adityatyagi.github.io/scalable-angular-folder-structure/styles.efd85281d64d456a62d6.css"
       ],
       "patterns": []
@@ -44,7 +44,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://adityatyagi.github.io/scalable-angular-folder-structure/4.215eb396c5ece87b9133.js": "70a43a8881f1c35279586272d29f5bb95c2847b2",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/4.4ca85d0b3007a4cab725.js": "b211dbceab758f9b2258be5a5e605d240f0cdf89",
     "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.eot": "3923232e8a1ce420e92438221af1952c69150b05",
     "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.svg": "128f2fac15448eae2c5c4c92ba1445e43e091c68",
     "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/icon/icomoon.ttf": "3229b671d2be0a3d5defb3eee74055784091478d",
@@ -60,10 +60,10 @@
     "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/images/chevron-arrow-up.png": "5d1c6d8f2adddd5a58461dbf9b029c54f65eb65c",
     "https://adityatyagi.github.io/scalable-angular-folder-structure/assets/scss/modules/_icon.scss": "51cb810463e91b307fb609696de143584bafa21f",
     "https://adityatyagi.github.io/scalable-angular-folder-structure/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://adityatyagi.github.io/scalable-angular-folder-structure/index.html": "5f3e5817803a7d63581b6a2a67d38f505f1a1ff9",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/index.html": "f66c8936a43ddf5ecd72099ee4ded19afe4cb3ce",
     "https://adityatyagi.github.io/scalable-angular-folder-structure/main.8fb0aacddf6188c71a72.js": "db0c79dceac988cc1e5e207fcb060029c8a706b8",
     "https://adityatyagi.github.io/scalable-angular-folder-structure/polyfills.e254f6b9bf511460eb6d.js": "6946e10a03311677a01490b8e91741668e64e17e",
-    "https://adityatyagi.github.io/scalable-angular-folder-structure/runtime.3fdbe794857a1a1acafa.js": "570dc482321c8931fe910c66e5237f0315ee9096",
+    "https://adityatyagi.github.io/scalable-angular-folder-structure/runtime.215ce144c88524f9a277.js": "cc5ccc994f69c67779fe1f5c25fc207d62eca6c3",
     "https://adityatyagi.github.io/scalable-angular-folder-structure/styles.efd85281d64d456a62d6.css": "9f882c026297c621d9310d4f21aa81d1c2056ffb"
   },
   "navigationUrls": [
