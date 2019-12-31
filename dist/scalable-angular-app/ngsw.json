@@ -7,12 +7,12 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/scalable-angular-folder-structure/4.4ca85d0b3007a4cab725.js",
+        "/scalable-angular-folder-structure/4.cd584e5b18ec0dc16078.js",
         "/scalable-angular-folder-structure/favicon.ico",
         "/scalable-angular-folder-structure/index.html",
         "/scalable-angular-folder-structure/main.8fb0aacddf6188c71a72.js",
         "/scalable-angular-folder-structure/polyfills.e254f6b9bf511460eb6d.js",
-        "/scalable-angular-folder-structure/runtime.215ce144c88524f9a277.js",
+        "/scalable-angular-folder-structure/runtime.df9c595f99ad7430c61f.js",
         "/scalable-angular-folder-structure/styles.efd85281d64d456a62d6.css"
       ],
       "patterns": []
@@ -34,6 +34,7 @@
         "/scalable-angular-folder-structure/assets/icons/icon-512x512.png",
         "/scalable-angular-folder-structure/assets/icons/icon-72x72.png",
         "/scalable-angular-folder-structure/assets/icons/icon-96x96.png",
+        "/scalable-angular-folder-structure/assets/images/apple-icon.png",
         "/scalable-angular-folder-structure/assets/images/chevron-arrow-up.png",
         "/scalable-angular-folder-structure/assets/scss/modules/_icon.scss"
       ],
@@ -44,7 +45,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/scalable-angular-folder-structure/4.4ca85d0b3007a4cab725.js": "b211dbceab758f9b2258be5a5e605d240f0cdf89",
+    "/scalable-angular-folder-structure/4.cd584e5b18ec0dc16078.js": "01b370ab45274630fcdd3034d47ae16fb5ed6e89",
     "/scalable-angular-folder-structure/assets/icon/icomoon.eot": "3923232e8a1ce420e92438221af1952c69150b05",
     "/scalable-angular-folder-structure/assets/icon/icomoon.svg": "128f2fac15448eae2c5c4c92ba1445e43e091c68",
     "/scalable-angular-folder-structure/assets/icon/icomoon.ttf": "3229b671d2be0a3d5defb3eee74055784091478d",
@@ -57,13 +58,14 @@
     "/scalable-angular-folder-structure/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/scalable-angular-folder-structure/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/scalable-angular-folder-structure/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/scalable-angular-folder-structure/assets/images/apple-icon.png": "d31a2b030764b37880ac6331169db994f55b2ec1",
     "/scalable-angular-folder-structure/assets/images/chevron-arrow-up.png": "5d1c6d8f2adddd5a58461dbf9b029c54f65eb65c",
     "/scalable-angular-folder-structure/assets/scss/modules/_icon.scss": "51cb810463e91b307fb609696de143584bafa21f",
     "/scalable-angular-folder-structure/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/scalable-angular-folder-structure/index.html": "8d227bc07f19006b49e8ea9d662b1cd998894abb",
+    "/scalable-angular-folder-structure/index.html": "fdf8e2b8db63f7617458df228e1fad9bf594f7fa",
     "/scalable-angular-folder-structure/main.8fb0aacddf6188c71a72.js": "db0c79dceac988cc1e5e207fcb060029c8a706b8",
     "/scalable-angular-folder-structure/polyfills.e254f6b9bf511460eb6d.js": "6946e10a03311677a01490b8e91741668e64e17e",
-    "/scalable-angular-folder-structure/runtime.215ce144c88524f9a277.js": "cc5ccc994f69c67779fe1f5c25fc207d62eca6c3",
+    "/scalable-angular-folder-structure/runtime.df9c595f99ad7430c61f.js": "c0aa33e17b7720d1e2374e65cff267d536451a8c",
     "/scalable-angular-folder-structure/styles.efd85281d64d456a62d6.css": "9f882c026297c621d9310d4f21aa81d1c2056ffb"
   },
   "navigationUrls": [
